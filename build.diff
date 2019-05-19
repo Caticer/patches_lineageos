@@ -78,7 +78,8 @@ index e266cc36d..f0ab77d35 100644
      MusicFX \
      OneTimeInitializer \
      Provision \
-@@ -31,7 +28,6 @@ PRODUCT_PACKAGES := \
+@@ -31,7 +28,6 @@ 
+ PRODUCT_PACKAGES := \
      DisplayCutoutEmulationDoubleOverlay \
      DisplayCutoutEmulationCornerOverlay \
      DisplayCutoutEmulationTallOverlay \
@@ -106,7 +107,8 @@ index 1e5ed1928..0745b828b 100644
  	Mms \
  	Music \
  	Protips \
-@@ -37,7 +32,6 @@ PRODUCT_PACKAGES := \
+@@ -37,7 +32,6 @@ 
+ PRODUCT_PACKAGES := \
  	sqlite3 \
  	SystemUI \
  	SysuiDarkThemeOverlay \

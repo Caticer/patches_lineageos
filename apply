@@ -2,13 +2,21 @@
 BASEDIR=$(pwd);
 
 # Disable basic AOSP packages
+echo "Applying build"
 cd $BASEDIR/build;
-git apply $BASEDIR/patches/build.diff;
+patch -p1 < $BASEDIR/patches/build.diff;
 
 # Disable basic LineageOS packages
+echo "Applying vendor_lineage"
 cd $BASEDIR/vendor/lineage;
-git apply $BASEDIR/patches/vendor_lineage.diff;
+patch -p1 < $BASEDIR/patches/vendor_lineage.diff;
 
 # Apply notch fixes for daisy
-cd $BASEDIR/framework/base/packages/SystemUI/src/com/android/systemui/statusbar;
-git apply $BASEDIR/patches/notch.diff;
+echo "Applying notch fixes"
+cd $BASEDIR/frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar;
+patch -p1 < $BASEDIR/patches/notch.diff;
+
+# Apply restricted signature spoofing patch
+echo "Applying signature spoofing"
+cd $BASEDIR/frameworks/base;
+patch -p1 < $BASEDIR/patches/signature.diff;

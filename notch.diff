@@ -1,5 +1,5 @@
---- HeadsUpStatusBarView.java	2019-05-18 11:21:42.850900710 +0200
-+++ HeadsUpStatusBarView.diff	2019-05-19 12:19:53.511875833 +0200
+--- a/HeadsUpStatusBarView.java	2019-05-18 11:21:42.850900710 +0200
++++ b/HeadsUpStatusBarView.java	2019-05-18 11:21:42.850900710 +0200
 @@ -81,6 +81,7 @@
          super(context, attrs, defStyleAttr, defStyleRes);
          Resources res = getResources();
