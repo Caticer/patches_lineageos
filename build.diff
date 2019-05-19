@@ -74,7 +74,6 @@ index e266cc36d..f0ab77d35 100644
      Bluetooth \
      BluetoothMidiService \
 -    Camera2 \
--    Gallery2 \
 -    Music \
      MusicFX \
      OneTimeInitializer \
@@ -100,7 +99,6 @@ index 1e5ed1928..0745b828b 100644
  	CustomLocale \
 -	Development \
  	Dialer \
--	Gallery2 \
  	Launcher3QuickStep \
 -	Camera2 \
  	librs_jni \

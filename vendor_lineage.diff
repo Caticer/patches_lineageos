@@ -24,14 +24,13 @@ index 2aec1f79..99012888 100644
      ExactCalculator \
 -    Jelly \
      LockClock \
-     TrebuchetQuickStep \
+-    TrebuchetQuickStep \
 -    Updater \
 -    WallpaperPicker \
 -    WeatherProvider
 -
 -# Exchange support
 -PRODUCT_PACKAGES += \
--    Exchange2
 +    WallpaperPicker
  
  # Berry styles
@@ -56,7 +55,6 @@ index 069e82a1..1d92f1e5 100644
  
  # Telephony packages
  PRODUCT_PACKAGES += \
--    messaging \
 -    Stk \
 -    CellBroadcastReceiver
 +    messaging
